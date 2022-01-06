@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.pixys.support.colorpicker;
+package com.aospa.support.colorpicker;
 
 import android.app.AlertDialog;
 import android.app.NotificationManager;
@@ -31,7 +31,7 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 
-import com.pixys.support.R;
+import com.aospa.support.R;
 
 public class ColorPickerDialog extends AlertDialog implements ColorPickerView.OnColorChangedListener, View.OnClickListener {
 
@@ -126,15 +126,15 @@ public class ColorPickerDialog extends AlertDialog implements ColorPickerView.On
     }
 
     private void showLed(int color) {
-        if (mShowLedPreview) {
+/*        if (mShowLedPreview) {
             mNoMan.forceShowLedLight(color);
-        }
+        }*/
     }
 
     private void switchOffLed() {
-        if (mShowLedPreview) {
+        /*if (mShowLedPreview) {
             mNoMan.forceShowLedLight(0);
-        }
+        }*/
     }
 
     void setAlphaSliderVisible(boolean visible) {

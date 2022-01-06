@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixys.support.preference;
+package com.aospa.support.preference;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;

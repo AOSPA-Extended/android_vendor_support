@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.pixys.support.preference;
+package com.aospa.support.preference;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -23,7 +23,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Switch;
 
-import com.pixys.support.R;
+import com.aospa.support.R;
 
 /**
  * A custom preference that provides inline switch toggle. It has a mandatory field for title, and

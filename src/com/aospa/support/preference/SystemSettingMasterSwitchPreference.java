@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.pixys.support.preference;
+package com.aospa.support.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.pixys.support.preference.SystemSettingsStore;
+import com.aospa.support.preference.SystemSettingsStore;
 
 public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {
 
